@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinojkhootie Resources</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f2f5f9;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+background:white;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#ff4d6d;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#555;
+font-size:14px;
+}
+
+nav a:hover{
+color:#ff4d6d;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(120deg,#ff4d6d,#ff8fa3);
+color:white;
+padding:70px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+opacity:0.9;
+}
+
+/* SEARCH */
+
+.search{
+margin-top:20px;
+}
+
+.search input{
+padding:10px;
+width:300px;
+border:none;
+border-radius:5px;
+}
+
+/* CATEGORIES */
+
+.categories{
+width:90%;
+margin:auto;
+padding:40px 0;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.category{
+background:white;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+transition:.3s;
+}
+
+.category:hover{
+transform:translateY(-5px);
+}
+
+.category-title{
+font-size:18px;
+margin-bottom:5px;
+}
+
+/* RESOURCE LIST */
+
+.resources{
+width:90%;
+margin:auto;
+padding:20px 0 40px;
+}
+
+.resources h2{
+margin-bottom:20px;
+}
+
+.resource-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.resource{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.05);
+}
+
+.resource-title{
+font-size:16px;
+margin-bottom:5px;
+}
+
+.resource-desc{
+font-size:13px;
+color:#666;
+margin-bottom:10px;
+}
+
+.visit-btn{
+display:inline-block;
+padding:6px 12px;
+background:#ff4d6d;
+color:white;
+text-decoration:none;
+border-radius:4px;
+font-size:13px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:#bbb;
+padding:40px 8%;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+}
+
+.footer-title{
+color:white;
+margin-bottom:10px;
+}
+
+.footer-links a{
+display:block;
+color:#aaa;
+text-decoration:none;
+margin-bottom:6px;
+font-size:14px;
+}
+
+.footer-links a:hover{
+color:white;
+}
+
+.copy{
+text-align:center;
+margin-top:20px;
+font-size:13px;
+color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Kinojkhootie</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Resources</a>
+<a href="#">Categories</a>
+<a href="#">Submit</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Discover Useful Resources</h1>
+<p>Explore curated websites, tools, and guides.</p>
+
+<div class="search">
+<input type="text" placeholder="Search resources...">
+</div>
+
+</section>
+
+<!-- CATEGORY SECTION -->
+
+<div class="categories">
+
+<div class="category">
+<div class="category-title">Web Tools</div>
+<p style="font-size:13px;color:#666;">Useful online tools</p>
+</div>
+
+<div class="category">
+<div class="category-title">Learning</div>
+<p style="font-size:13px;color:#666;">Educational resources</p>
+</div>
+
+<div class="category">
+<div class="category-title">Design</div>
+<p style="font-size:13px;color:#666;">Design inspiration</p>
+</div>
+
+<div class="category">
+<div class="category-title">Productivity</div>
+<p style="font-size:13px;color:#666;">Improve your workflow</p>
+</div>
+
+</div>
+
+<!-- RESOURCE LIST -->
+
+<div class="resources">
+
+<h2>Popular Resources</h2>
+
+<div class="resource-grid">
+
+<div class="resource">
+<div class="resource-title">Example Resource</div>
+<div class="resource-desc">Short description of the resource.</div>
+<a href="#" class="visit-btn">Visit</a>
+</div>
+
+<div class="resource">
+<div class="resource-title">Example Resource</div>
+<div class="resource-desc">Short description of the resource.</div>
+<a href="#" class="visit-btn">Visit</a>
+</div>
+
+<div class="resource">
+<div class="resource-title">Example Resource</div>
+<div class="resource-desc">Short description of the resource.</div>
+<a href="#" class="visit-btn">Visit</a>
+</div>
+
+<div class="resource">
+<div class="resource-title">Example Resource</div>
+<div class="resource-desc">Short description of the resource.</div>
+<a href="#" class="visit-btn">Visit</a>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+<div class="footer-title">About</div>
+<p style="font-size:14px;">
+<a href="https://www.encryptionconsulting.com">https://www.encryptionconsulting.com</a>
+<a href=""></a>
+
+</p>
+</div>
+
+<div>
+<div class="footer-title">Quick Links</div>
+<div class="footer-links">
+<a href="#">Home</a>
+<a href="#">Categories</a>
+<a href="#">Submit Resource</a>
+<a href="#">Contact</a>
+</div>
+</div>
+
+<div>
+<div class="footer-title">Categories</div>
+<div class="footer-links">
+<a href="#">Web Tools</a>
+<a href="#">Learning</a>
+<a href="#">Design</a>
+<a href="#">Productivity</a>
+</div>
+</div>
+
+</div>
+
+<div class="copy">
+© 2026 Kinojkhootie.site – All Rights Reserved
+</div>
+
+</footer>
+
+</body>
+</html>
